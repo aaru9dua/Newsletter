@@ -27,7 +27,7 @@ class Newsletter{
 	}
 	else
 	{
-		System.out.println("Enter a valid option bitch");
+		System.out.println("Enter a valid option");
 	}
 
     }
