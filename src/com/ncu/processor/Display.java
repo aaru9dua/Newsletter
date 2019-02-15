@@ -1,16 +1,13 @@
-
+package com.ncu.processor;
 import java.io.*;
 import java.util.*;
-class Display{
-     public static void main(String[] args) {
-        
-    
-    
+public class Display{
+     public static void display() {
     String fname;
     Scanner scan = new Scanner(System.in);
 
-    String txtfilepath = "C:\\Users\\AKASH\\Desktop\\Major\\Text";
-      String csvfilepath = "C:\\Users\\AKASH\\Desktop\\Major\\csvs";
+    String txtfilepath = "C:\\Users\\Abhi\\Desktop\\Major\\Text";
+      String csvfilepath = "C:\\Users\\Abhi\\Desktop\\Major\\csvs";
 
     /* enter filename with extension to open and read its content */
 

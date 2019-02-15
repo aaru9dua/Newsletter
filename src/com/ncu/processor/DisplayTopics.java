@@ -1,6 +1,7 @@
 package com.ncu.processor;
 import java.io.*;
 import java.io.IOException;
+import com.ncu.processor.*;
 
 public class DisplayTopics { 
 
@@ -12,18 +13,4 @@ public class DisplayTopics {
   System.out.println(currentLine); 
   }
  }
-}
-class DisplayTopicsTest {
-    public static void main(String[] args) {
-
-    DisplayTopics r1 = new DisplayTopics();
-    String fileName = "C:\\Users\\AKASH\\Desktop\\Major\\csvs\\topic.csv";
-
-    try {
-        r1.readFile(fileName);
-    } catch (IOException e) {
-        System.out.println("file not found");
-    }
- }
-
 }
