@@ -30,3 +30,7 @@ com.ncu.exceptions.TopicNotAvailable: File is not availablenull
  
 com.ncu.exceptions.SpecialCharacterException: Cannot use special charactersnull
 
+2019-02-18 13:42:13 ERROR TopicNameValidator:49 - 
+ 
+com.ncu.exceptions.SpecialCharacterException: Cannot use special charactersnull
+
